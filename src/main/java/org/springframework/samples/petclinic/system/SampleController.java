@@ -8,6 +8,6 @@ public class SampleController {
 
     @GetMapping("/sample")
     public String getSampleResponse() {
-        return "This is a sample response";
+        return "This is a changed sample response";
     }
 }
